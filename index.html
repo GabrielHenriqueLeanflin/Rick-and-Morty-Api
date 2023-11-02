@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo-min.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rick and Morty</title>
+</head>
+<body>
+   
+    <header>Rubik Studio - Teste de programação</header>
+   
+    <div class="container">
+        <main>
+            <section class="characters">
+                <img src="./assets/rick-and-morty.svg" alt="">
+            
+                <div class="filters">
+                    <input type="text" id="search" placeholder="Filtrar pelo nome..." class="filter">
+                    
+                    <select name="status" id="status" class="filter">
+
+                        <option value="" default>
+                            Status
+                        </option>
+
+                        <option value="alive" default>Alive</option>
+                        <option value="dead" default>Dead</option>
+                        <option value="unknown" default>Unknown</option>
+
+                    </select>
+
+                    <select name="gender" id="gender" class="filter">
+
+                        <option value="" default>
+                            Gênero
+                        </option>
+
+                        <option value="female" default>Female</option>
+                        <option value="male" default>Male</option>
+                        <option value="genderless" default>Genderless</option>
+                        <option value="unknown" default>Unknown</option>
+                        
+                    </select>
+
+                </div>
+            
+
+                <div class="character-container">
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

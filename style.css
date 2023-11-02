@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    padding-bottom: 20px;
+  }
+  
+  header {
+    font-weight: bold;
+    text-align: center;
+    background-color: #88ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  main {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main .characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/*Estilização Tabela Filtros*/
+  
+  main .characters .filters {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+  }
+
+/*Estilização Filtros*/
+  
+  .characters .filters .filter {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid #88ff00;
+    border-radius: 5px;
+    color: #000000;
+  }
+
+/*Estilização Tabela CARDS*/
+  
+main .characters .character-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/*Estilização CARD*/
+
+.characters .character-container .character {
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000000;
+  border: 1px solid greenyellow;
+}
+
+/*Estilização IMAGEM*/
+
+.characters .character-container .character > img {
+  width: 240px;
+  height: 168px;
+  object-fit: cover;
+}
+
+/*Estilização INFORMAÇÕES CARDS*/
+
+.character-container .character .character-info {
+  padding: 10px;
+}
+
+.character .character-info span {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/*Estilização botão VER MAIS*/
+
+a:link{
+  text-decoration: none;
+  }
+
+.character .button {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px 15px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #88ff00;
+  color: #000000;
+  font-weight: bold
+}
+
+/*Estilização char.html*/
+
+h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  color: #fff;
+  font-size: 48px;
+}
+
+.character-unico > img {
+  width: 400px;
+  margin-top: 2rem;
+  border-radius: 20%;
+}
+
+h2 {
+  color: #fff;
+}
+
+.character-unico > div{
+  display: inline-block;
+  padding: 100px;
+}
+
+h3 {
+  color: #fff;
+}
+
+span {
+  color: #fff;
+}
